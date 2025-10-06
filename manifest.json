@@ -1,7 +1,9 @@
 {
+    "id": "./",
     "name": "Perfil do Dino",
     "short_name": "Dino",
-    "start_url": "index.html",
+    "start_url": "./",
+    "scope": "./",
     "display": "standalone",
     "background_color": "#ffff8b",
     "theme_color": "#111111",
@@ -18,4 +20,5 @@
             "type": "image/png"   
         }
     ]
+
 }
