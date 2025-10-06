@@ -124,14 +124,15 @@
         <p>LinkedIn: <a href="https://www.linkedin.com/in/helcio-padilha/" target="_blank">Dino da Silva Sauro</a></p>
     </footer>
 
-    <script>
-        if ("serviceWorker" in navigator){
-            navigator.serviceWorker("service-worker.js")
-            .then(() => console.log("SW registrado com sucesso"))
-            .catch(err => console.error("Erro ao registrar SW", err))
-        }
-     
-    </script>
+  <script>
+    if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("./service-worker.js", { scope: "./" })
+      .then(reg => console.log("SW ok:", reg.scope))
+      .catch(err => console.error("SW erro:", err));
+    }
+  </script>
 </body>
+
 
 </html>
