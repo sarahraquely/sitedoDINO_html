@@ -126,13 +126,14 @@
 
   <script>
     if ("serviceWorker" in navigator) {
-    navigator.serviceWorker
-      .register("./service-worker.js", { scope: "./" })
-      .then(reg => console.log("SW ok:", reg.scope))
-      .catch(err => console.error("SW erro:", err));
-    }
+        navigator.serviceWorker
+          .register("./service-worker.js", { scope: "./" })
+          .then(reg => console.log("SW ok:", reg.scope))
+          .catch(err => console.error("SW erro:", err));
+        }
   </script>
 </body>
 
 
 </html>
+
