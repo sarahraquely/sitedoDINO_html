@@ -1,0 +1,21 @@
+{
+    "name": "Perfil do Dino",
+    "short_name": "Dino",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffff8b",
+    "theme_color": "#111111",
+    "icons": [
+        {
+            "src":"icon/icon-192.png",
+            "size":"192x192",
+            "type": "image/png"
+        },
+
+        {
+            "src":"icon/icon-512.png",
+            "size":"512x512",
+            "type": "image/png"   
+        }
+    ]
+}
